@@ -5,14 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=0, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            width: 100%;
+            background-color: rgb(230, 125, 21);
+        }
+        #nav li{
+            height: 20px;
+            margin: 5px;
+            background-color: rgb(165, 95, 26);
+            padding: 20px;
+            display: inline-block;
+            color: azure;
+        }
+        #logo {
+            color: aliceblue;
+        }
+        #nav li:hover {
+            background-color: aliceblue;
+            cursor: auto;
+        }
+        li a:hover {
+            color: rgb(165, 95, 26);
+        }
+        li a {
+            color: white;
+        }
+        #site--body {
+            margin: 10px;
+        }
+        .receita {
+        margin: 20px;
+        }
+        p {
+        text-align: justify;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <ul>
-            <li>home</li>
-            <li>sobre</li>
+        <ul id="nav">
+            <h1 id="logo">pedrinho power cooking tudo gostoso.com(BY RAD)</h1>
+            <li><a href="">home</a></li>
+            <li><a href="">sobre</a></li>
         </ul>
     </header>
-    <div id="site--body"></div>
+    <div id="site--body">
+        <div class="receita">
+            
+            <h1>receita de bolo</h1>
+            <h2>ingredientes</h2>
+             <p>3 xícaras de chá de farinha de trigo com fermento<br>
+            2 xícaras e meia de chá de açúcar refinado<br>
+            1 xícara de chá de leite de vaca<br>
+            250 g de margarina<br>
+            3 ovos inteiros<br>
+            gotas de baunilha<br></p>
+           <h2>forma de preparo:</h2>
+           <p> Na batedeira bata a margarina por uns 2 minutinhos.
+            Acrescente aos poucos o açúcar e bata mais um pouco.
+            Acrescente os ovos inteiros, clara com gemas, bata bem.
+            Coloque as gotas de baunilha mas é opcional.
+            Vai acrescentando a farinha de trigo e o leite aos poucos, batendo sempre.
+            Coloque esta massa em uma forma untada com margarina e farinha de trigo.
+            Asse em forno pré-aquecido em 180°C.
+            Espere ficar douradinho de leve.
+            Fure com uma faca, se a faca sair limpa é por que está pronto.
+            Espere esfriar e desenforme, pois é muito fofinho senão desmancha.
+            Essa receita dá um bolo de médio à grande.</p>
+        </div>
+    </div>
 </body>
 </html>
