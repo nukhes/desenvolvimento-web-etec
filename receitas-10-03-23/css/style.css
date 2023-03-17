@@ -1,29 +1,45 @@
 * {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
-
+/* CABEÇA */
 /* estrutura laranja do topo */
 #head {
-  height: 80px;
-  width: 100%;
-  background-color: rgb(230, 125, 21);
+	height: 80px;
+	width: 100%;
+	background-color: rgb(230, 125, 21);
 }
 
 /* logo tudotaste */
 #logo {
-  margin-top: 5px;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  position: absolute;
-  color: aliceblue;
+	margin-top: 5px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	color: aliceblue;
+}
+
+/* barra de navegação */
+#nav {
+	position: absolute;
+	background-color: rgb(49, 49, 49);
+	height: 46px;
+	width: 100%;
+	margin-top: 50px;
+}
+
+#centered {
+	display: flex;
+	width: min-content;
+	margin-left: 50%;
+	transform: translateX(-50%);
 }
 
 /* botões para navegar */
 .btt:hover {
-	color: rgb(165, 95, 26);
-	background-color: aliceblue;
+	color: rgb(230, 125, 21);
+	background-color: rgb(216, 224, 231);
 }
 
 .btt {
@@ -32,20 +48,20 @@
 	font-style: oblique;
 	text-decoration: none;
 	width: 80px;
-  height: 25px;
-	padding: 5px;
-  margin: 5px;
-  background-color: rgb(165, 95, 26);
+	height: min-content;
+	padding: 7.5px;
+	margin: 5px;
+	background-color: rgb(230, 125, 21);
 	text-align: center;
-  display: inline-block;
-  color: azure;
+	text-transform: uppercase;
+	color: rgb(49, 49, 49);
 }
 
 /* corpo do site */
 #site--body {
 	margin-top: 15.5px;
 	padding: 5px;
-  margin-left: 50%;
+	margin-left: 50%;
 	transform: translateX(-50%);
 	background-color: rgb(240, 240, 240);
 	max-width: 800px;
@@ -54,7 +70,7 @@
 
 /* classe das receitas */
 .receita {
-  margin: 50px;
+	margin: 50px;
 }
 h1 {
 	margin-bottom: 20px;
@@ -69,19 +85,10 @@ h2 {
 }
 p {
 	padding: 7.5px;
-  text-align: justify;
+	text-align: justify;
 	margin-bottom: 10px;
 }
 
-#nav {
-  position: absolute;
-  background-color: rgb(49, 49, 49);
-  height: 46px;
-  width: 100%;
-  margin-top: 50px;
-}
-
-/* formatacao img*/
 img {
 	margin: 10px;
 	width: 100%;
