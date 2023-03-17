@@ -1,50 +1,86 @@
 * {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
+
+/* estrutura laranja do topo */
 #head {
   height: 80px;
   width: 100%;
   background-color: rgb(230, 125, 21);
 }
-#head li{
-  height: 20px;
-  margin: 5px;
-  background-color: rgb(165, 95, 26);
-  padding: 20px;
-  display: inline-block;
-  color: azure;
-}
+
+/* logo tudotaste */
 #logo {
-  margin-top: 15px;
+  margin-top: 5px;
   margin-left: 50%;
   transform: translateX(-50%);
   position: absolute;
   color: aliceblue;
 }
-#head li:hover {
-  background-color: aliceblue;
-  cursor: auto;
+
+/* botões para navegar */
+.btt:hover {
+	color: rgb(165, 95, 26);
+	background-color: aliceblue;
 }
-li a:hover {
-  color: rgb(165, 95, 26);
+
+.btt {
+	border-radius: 5px;
+	font-variant-caps: all-petite-caps;
+	font-style: oblique;
+	text-decoration: none;
+	width: 80px;
+  height: 25px;
+	padding: 5px;
+  margin: 5px;
+  background-color: rgb(165, 95, 26);
+	text-align: center;
+  display: inline-block;
+  color: azure;
 }
-li a {
-  color: white;
-}
+
+/* corpo do site */
 #site--body {
-  margin: 10px;
+	margin-top: 15.5px;
+	padding: 5px;
+  margin-left: 50%;
+	transform: translateX(-50%);
+	background-color: rgb(240, 240, 240);
+	max-width: 800px;
+	width: 90%;
 }
+
+/* classe das receitas */
 .receita {
-margin: 20px;
+  margin: 50px;
+}
+h1 {
+	margin-bottom: 20px;
+	text-align: center;
+	font-variant-caps: all-petite-caps;
+}
+h2 {
+	margin-bottom: 5+.px;
 }
 p {
-text-align: justify;
+  text-align: justify;
+	margin-bottom: 10px;
 }
 #nav {
   position: absolute;
-  background-color: gray;
-  height: 30px;
+  background-color: rgb(49, 49, 49);
+  height: 46px;
   width: 100%;
   margin-top: 50px;
-} 
+}
+
+/* formatacao img*/
+img {
+	margin: 10px;
+	width: 100%;
+	max-width: 720px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.589);
+}
