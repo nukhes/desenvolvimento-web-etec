@@ -60,14 +60,19 @@ h1 {
 	margin-bottom: 20px;
 	text-align: center;
 	font-variant-caps: all-petite-caps;
+} 
+ul li {
+	margin-left: 25px;
 }
 h2 {
-	margin-bottom: 5+.px;
+	margin: 10px 0 10px 0;
 }
 p {
+	padding: 7.5px;
   text-align: justify;
 	margin-bottom: 10px;
 }
+
 #nav {
   position: absolute;
   background-color: rgb(49, 49, 49);
