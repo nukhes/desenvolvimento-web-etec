@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#head {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(230, 125, 21);
+}
+#head li{
+  height: 20px;
+  margin: 5px;
+  background-color: rgb(165, 95, 26);
+  padding: 20px;
+  display: inline-block;
+  color: azure;
+}
+#logo {
+  margin-top: 15px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  color: aliceblue;
+}
+#head li:hover {
+  background-color: aliceblue;
+  cursor: auto;
+}
+li a:hover {
+  color: rgb(165, 95, 26);
+}
+li a {
+  color: white;
+}
+#site--body {
+  margin: 10px;
+}
+.receita {
+margin: 20px;
+}
+p {
+text-align: justify;
+}
+#nav {
+  position: absolute;
+  background-color: gray;
+  height: 30px;
+  width: 100%;
+  margin-top: 50px;
+} 
