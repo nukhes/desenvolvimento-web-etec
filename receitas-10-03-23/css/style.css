@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
 * {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -40,6 +42,7 @@
 	width: 50px;
 }
 
+/* CORPO*/
 /* bloco de receita */
 .bloco__receita {
 	margin: 20px;
@@ -137,15 +140,16 @@
 .receita {
 	margin: 50px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+	justify-content: left;
+	align-items: flex-start;
+	align-content: flex-start;
 	flex-wrap: wrap;
 	flex-direction: column;
 }
 h1 {
 	margin-bottom: 20px;
 	text-align: center;
+	font-weight: 700;
 	font-variant-caps: all-petite-caps;
 } 
 ul li {
@@ -162,10 +166,41 @@ p {
 
 .receita img {
 	margin: 10px;
-	width: 110%;
+	width: calc(100% - 80px);
 	max-width: 720px;
 	border-radius: 5px;
 	box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.589);
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+/* RODAPE */
+#site__footer {
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--accent-color);
+}
+
+#site__footer h1 {
+	font-size: 24px;
+}
+
+#site__footer ul li {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	font-size: 16px;
+}
+
+#site__footer ul li .fa-brands {
+	font-size: 26px;
+	margin: 2.5px 5px 2.5px 2.5px;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: var(--dark-color);
+	color: white;
 }
 
 /* ajustes de responsividade */
@@ -174,10 +209,3 @@ p {
 		width: 100%;
 	}
 }
-/*
-@media (min-width: 1134px) {
-	.bloco__receita {
-		width: 40%;
-	}
-}
-*/
