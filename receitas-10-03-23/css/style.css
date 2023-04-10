@@ -20,6 +20,8 @@ body {
 /* CABEÇA */
 /* estrutura laranja do topo */
 #head {
+	display: flex;
+	justify-content: center;
 	height: 80px;
 	width: 100%;
 	background-color: var(--accent-color);
@@ -28,11 +30,9 @@ body {
 /* logo tudotaste */
 #logo {
 	text-shadow: 3px 3px  var(--dark-color);
-	margin-top: 5px;
-	margin-left: calc(50% - 22px);
-	transform: translateX(-50%);
 	position: absolute;
 	color: white;
+	margin-left: -44px;
 }
 
 /*pepper*/
@@ -101,15 +101,12 @@ body {
 	position: absolute;
 	background-color: var(--dark-color);
 	height: 46px;
-	width: 100%;
 	margin-top: 50px;
-}
-
-#centered {
 	display: flex;
-	width: min-content;
-	margin-left: 50%;
-	transform: translateX(-50%);
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	width: 100vw;
 }
 
 /* botões para navegar */
@@ -125,7 +122,7 @@ body {
 	text-decoration: none;
 	width: 80px;
 	height: min-content;
-	padding: 7.5px;
+	padding:  2.5px 7.5px 7.5px 7.5px;
 	margin: 5px;
 	background-color: var(--accent-color);
 	text-align: center;
