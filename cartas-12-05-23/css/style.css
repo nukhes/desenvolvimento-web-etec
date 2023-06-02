@@ -42,6 +42,7 @@ body {
     width: 290px;
     z-index: 9;
     height: 403px;
+    transform: rotate(2deg);
 }
 
 /* head */
