@@ -96,3 +96,17 @@ header ul li a {
 p {
     text-align: justify;
 }
+
+
+/* footer */
+footer {
+    width: 100vw;
+    height: 120px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    padding-top: 70px;
+    color: rgba(0, 0, 0, 0.479);
+}
