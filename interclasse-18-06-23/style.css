@@ -13,7 +13,29 @@ h1 {
   text-align: center;
 }
 
+input, textarea {
+  margin-top: 10px;
+  font-size: 12pt;
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.048);
+  border-bottom: 2.5px solid rgba(0, 0, 0, 0.315);
+  transition: .25s;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+  border-color: black;
+}
+
 /* misc */
+.fa-arrow-left {
+  margin: 20px;
+  font-size: 48px;
+  color: black;
+}
+
 input[type="button"] {
   color: red;
   padding: 20px;
