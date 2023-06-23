@@ -36,6 +36,14 @@ textarea:focus, input:focus{
   color: black;
 }
 
+.pag {
+  position: absolute; 
+  margin-top: 24px; 
+  margin-left: 25px;
+  font-size: 32px;
+  color: rgba(255, 0, 0, 0.212);
+}
+
 input[type="button"] {
   color: red;
   padding: 20px;
