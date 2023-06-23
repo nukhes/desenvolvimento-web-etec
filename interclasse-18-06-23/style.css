@@ -19,8 +19,8 @@ input, textarea {
   padding: 10px;
   border: none;
   border-radius: 0;
-  background-color: rgba(0, 0, 0, 0.048);
-  border-bottom: 2.5px solid rgba(0, 0, 0, 0.315);
+  background-color: rgba(0, 0, 0, 0.05);
+  border-bottom: 2.5px solid rgba(0, 0, 0, 0.3);
   transition: .25s;
 }
 
@@ -34,6 +34,15 @@ textarea:focus, input:focus{
   margin: 20px;
   font-size: 48px;
   color: black;
+}
+
+select {
+  border: 2.5px solid rgba(0, 0, 0, 0.3);
+  transition: .25s;
+}
+
+select:focus {
+  border-color: black;
 }
 
 .pag {
