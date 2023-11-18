@@ -4,3 +4,15 @@ header {
     display: flex;
     justify-content: center;
 }
+
+body {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#jogos {
+    max-width: 1024px;
+}
